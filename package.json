@@ -1,0 +1,25 @@
+{
+  "name": "codenjoy-tetris-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "develop": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "codenjoy",
+    "tetris",
+    "nodejs",
+    "client"
+  ],
+  "author": "Nikita Kirsanov <kitos.kirsanov@epam.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
